@@ -4,7 +4,6 @@ export default function List(props) {
   console.log("props:", props);
   let { dataShoe, handleRemoveFromList, handleAddToCart } = props;
   let renderList = () => {
-    // image, name,button add
     return dataShoe.map((shoe, index) => {
       return (
         <div key={index} className="col-3">
@@ -13,7 +12,7 @@ export default function List(props) {
             onClick={() => {
               handleRemoveFromList(shoe.id);
             }}
-            className="btn btn-dark"
+            className="btn btn-warning"
           >
             Delete
           </button>

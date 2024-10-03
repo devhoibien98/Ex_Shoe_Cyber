@@ -46,7 +46,7 @@ export default function Cart({
         <thead>
           <tr>
             <th>Name</th>
-            {/* Image	Price	Total	Action */}
+
             <th>Image</th>
             <th>Price</th>
             <th>Total</th>
